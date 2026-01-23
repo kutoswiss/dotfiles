@@ -1,0 +1,17 @@
+[window]
+padding.x = 10
+padding.y = 10
+decorations = "Buttonless"
+opacity = 0.85
+blur = true
+option_as_alt = "None"
+
+[font]
+normal.family = "JetBrainsMono NFM"
+normal.style = "Regular"
+size = 12
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
