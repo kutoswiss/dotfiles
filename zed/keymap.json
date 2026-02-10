@@ -1,0 +1,50 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: Open Default Keymap`
+// from the command palette.
+[
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      // Search keybindings
+      "space space": "file_finder::Toggle",
+      "space p": "file_finder::Toggle",
+      "space F": "workspace::NewSearch",
+      "space f": "vim::Search",
+      // Open, edit, save and close panes
+      "space w": "workspace::Save",
+      "space q": "pane::CloseActiveItem",
+      "space Q": "pane::CloseAllItems",
+      "space j": [
+        "action::Sequence",
+        ["tab_switcher::Toggle", ["workspace::SendKeystrokes", "enter"]],
+      ],
+      "space J": "tab_switcher::ToggleAll",
+      // Split panes
+      "space -": "workspace::NewFileSplitVertical",
+      "space _": "workspace::NewFileSplitHorizontal",
+    },
+  },
+  {
+    "bindings": {
+      // Navigation using arrow keys
+      "alt-right": "workspace::ActivatePaneRight",
+      "alt-left": "workspace::ActivatePaneLeft",
+      "alt-up": "workspace::ActivatePaneUp",
+      "alt-down": "workspace::ActivatePaneDown",
+      // Navigation using vim keys
+      "alt-l": "workspace::ActivatePaneRight",
+      "alt-h": "workspace::ActivatePaneLeft",
+      "alt-k": "workspace::ActivatePaneUp",
+      "alt-j": "workspace::ActivatePaneDown",
+      // Toggle left, bottom and right panes
+      "alt-b": "workspace::ToggleLeftDock",
+      "alt-n": "terminal_panel::Toggle",
+      "alt-m": "workspace::ToggleRightDock",
+      "alt-q": "pane::CloseAllItems",
+    },
+  },
+]
