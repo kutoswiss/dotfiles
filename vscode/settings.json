@@ -1,0 +1,196 @@
+{
+    /////////////////////////////////////////
+    // Editor
+    /////////////////////////////////////////
+    "editor.mouseWheelZoom": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "JetBrainsMono NFM",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.inlineSuggest.enabled": true,
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.lineHeight": 24,
+    //"editor.cursorSurroundingLines": 100,
+    /////////////////////////////////////////
+    // Terminal
+    /////////////////////////////////////////
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.navigateLeft",
+        "workbench.action.navigateRight",
+        "workbench.action.navigateUp",
+        "workbench.action.navigateDown"
+    ],
+    /////////////////////////////////////////
+    // Window
+    /////////////////////////////////////////
+    // "window.zoomLevel": -0.5,
+    "window.commandCenter": false,
+    /////////////////////////////////////////
+    // Workbench
+    /////////////////////////////////////////
+    //"workbench.editor.showTabs": "single",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.activityBar.location": "top",
+    /////////////////////////////////////////
+    // Zen Mode
+    /////////////////////////////////////////
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.showTabs": "single",
+    /////////////////////////////////////////
+    // Security
+    /////////////////////////////////////////
+    "security.workspace.trust.untrustedFiles": "open",
+    /////////////////////////////////////////
+    // Vim
+    /////////////////////////////////////////
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-f>": false,
+        "<C-c>": false,
+        "<C-z>": false,
+        "<C-b>": false,
+        "<C-K>": false,
+        "<C-k>": false,
+        "<C-C>": false,
+        "<C-U>": false,
+        "<C-n>": false,
+        "<C-left>": false,
+        "<C-right>": false,
+        "<C-up>": false,
+        "<C-down>": false,
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "Z"
+            ],
+            "commands": [
+                "workbench.action.toggleZenMode"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "F"
+            ],
+            "commands": [
+                "workbench.action.toggleFullScreen"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "commands": [
+                "workbench.action.toggleAuxiliaryBar"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "-"
+            ],
+            "commands": [
+                ":vs"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "_"
+            ],
+            "commands": [
+                ":sp"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                ":q"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "Q"
+            ],
+            "commands": [
+                "workbench.action.closeEditorsInGroup"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                ":w"
+            ],
+        },
+    ],
+    /////////////////////////////////////////
+    // Git
+    /////////////////////////////////////////
+    "git.openRepositoryInParentFolders": "never",
+    /////////////////////////////////////////
+    // Php
+    /////////////////////////////////////////
+    "php.validate.executablePath": "",
+    /////////////////////////////////////////
+    // Diff editor
+    /////////////////////////////////////////
+    "diffEditor.renderSideBySide": false,
+    /////////////////////////////////////////
+    // Python venv
+    /////////////////////////////////////////
+    "python.terminal.activateEnvironment": true
+}
