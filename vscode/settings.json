@@ -37,6 +37,7 @@
     "workbench.layoutControl.enabled": false,
     "workbench.editor.enablePreview": false,
     "workbench.activityBar.location": "top",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     /////////////////////////////////////////
     // Zen Mode
     /////////////////////////////////////////
@@ -192,5 +193,9 @@
     /////////////////////////////////////////
     // Python venv
     /////////////////////////////////////////
-    "python.terminal.activateEnvironment": true
+    "python.terminal.activateEnvironment": true,
+    /////////////////////////////////////////
+    // Chat
+    /////////////////////////////////////////
+    "chat.disableAIFeatures": true
 }
