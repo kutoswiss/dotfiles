@@ -211,6 +211,9 @@ bar {
 # client.unfocused                    #333333   #222222   #888888   #292d2e     #222222
 # client.urgent                       #2f343a   #900000   #ffffff   #900000     #900000
 
+# default_border pixel 1
+# default_floating_border pixel 10
+
 # Window gaps (padding)
 gaps inner 10
 
